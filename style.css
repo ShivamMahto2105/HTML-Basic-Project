@@ -1,0 +1,223 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans:wght@400;600&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #F8F5F0;
+    color: #2C2C2C;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 25px 15px;
+    background: #2C2C2C;
+    color: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+header h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 18px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background: #C8A165;
+    color: #2C2C2C;
+}
+
+/* Images */
+figure {
+    margin: 25px auto;
+    text-align: center;
+    animation: fadeIn 1.2s ease-in-out;
+}
+
+figure img {
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+}
+
+figure img:hover {
+    transform: scale(1.05);
+}
+
+figcaption {
+    font-style: italic;
+    margin-top: 8px;
+}
+
+/* Main Content */
+main {
+    padding: 25px;
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    animation: slideUp 1s ease;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+    color: #5C4033;
+    margin-bottom: 15px;
+}
+
+/* Restaurant-Style Menu */
+#table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    margin-top: 15px;
+}
+
+#table caption {
+    font-family: 'Merriweather', serif;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: #5C4033;
+    text-align: left;
+}
+
+#table th, #table td {
+    padding: 14px 18px;
+    background: #FFFFFF;
+    border: none;
+    font-size: 1rem;
+}
+
+#table th {
+    background-color: #C8A165;
+    font-weight: bold;
+    color: #2C2C2C;
+}
+
+#table tbody tr {
+    box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+    border-radius: 8px;
+}
+
+#table tbody tr td:first-child {
+    font-weight: bold;
+    color: #5C4033;
+}
+
+#table tfoot td {
+    font-weight: bold;
+    color: #2C2C2C;
+    background: #EDE1D1;
+}
+
+/* Form Styling */
+form fieldset {
+    border: 2px solid #C8A165;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    background: #FFFFFF;
+}
+
+form label {
+    font-weight: 600;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    transition: border 0.3s ease;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #C8A165;
+    outline: none;
+    box-shadow: 0 0 6px rgba(200,161,101,0.4);
+}
+
+form button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background: #C8A165;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+form button:hover {
+    background: #A88650;
+    transform: translateY(-2px);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #2C2C2C;
+    color: white;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes slideUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    #table caption {
+        text-align: center;
+    }
+}
