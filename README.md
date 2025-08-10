@@ -17,27 +17,27 @@ The Little Taco Shop website is designed to showcase the restaurant’s offering
 
 ## Pages
 
-### [index.html](https://your-domain.com/index.html) — Homepage
+### [index.html](https://github.com/ShivamMahto2105/HTML-Basic-Project/blob/main/index.html) — Homepage
 The landing page introduces visitors to The Little Taco Shop, featuring:
 - A branded header with a professional navigation bar.
 - A hero section with an image and welcome text.
 - A highlighted menu section showing popular dishes.
 - Links to the hours and contact pages.
 
-### [hours.html](https://your-domain.com/hours.html) — Operating Hours
+### [hours.html](https://github.com/ShivamMahto2105/HTML-Basic-Project/blob/main/hours.html) — Operating Hours
 This page clearly displays the restaurant’s weekly schedule:
 - Easy-to-read table layout for opening and closing times.
 - Responsive design so hours remain legible on mobile.
 - Styled to match the site’s overall aesthetic.
 
-### [contact.html](https://your-domain.com/contact.html) — Contact Information
+### [contact.html](https://github.com/ShivamMahto2105/HTML-Basic-Project/blob/main/contact.html) — Contact Information
 Dedicated to helping customers reach the restaurant:
 - Contact form for inquiries or reservations.
 - Restaurant address, phone number, and email.
 - Optional map link for directions.
 - Consistent styling with the rest of the site.
 
-### [style.css](https://your-domain.com/style.css) — Main Stylesheet
+### [style.css](https://github.com/ShivamMahto2105/HTML-Basic-Project/blob/main/style.css) — Main Stylesheet
 Centralizes all design and layout rules:
 - Manages colors, fonts, and spacing using CSS variables.
 - Contains responsive breakpoints for various devices.
@@ -55,8 +55,8 @@ Centralizes all design and layout rules:
 ## Getting Started
 
 1. **Clone or Download** the project.
-2. Open [`index.html`](https://your-domain.com/index.html) in your browser to preview the site.
-3. Edit the HTML and [`style.css`](https://your-domain.com/style.css) to fit your restaurant’s branding.
+2. Open [`index.html`](https://github.com/ShivamMahto2105/HTML-Basic-Project/blob/main/index.html) in your browser to preview the site.
+3. Edit the HTML and [`style.css`](https://github.com/ShivamMahto2105/HTML-Basic-Project/blob/main/style.css) to fit your restaurant’s branding.
 
 Example link in HTML:
 ```html
