@@ -65,7 +65,7 @@ Example link in HTML:
 
 ## Customization
 
-- Change theme colors by updating `:root` variables in [`style.css`](https://your-domain.com/style.css).
+- Change theme colors by updating `:root` variables in [`style.css`](https://github.com/ShivamMahto2105/HTML-Basic-Project/blob/main/style.css).
 - Swap in your own images for the header and menu sections.
 - Update the hours and contact info in their respective HTML files.
 
