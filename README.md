@@ -63,10 +63,4 @@ Example link in HTML:
 <link rel="stylesheet" href="style.css">
 ```
 
-## Customization
-
-- Change theme colors by updating `:root` variables in [`style.css`](https://github.com/ShivamMahto2105/HTML-Basic-Project/blob/main/style.css).
-- Swap in your own images for the header and menu sections.
-- Update the hours and contact info in their respective HTML files.
-
 
